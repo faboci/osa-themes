@@ -1,0 +1,41 @@
+{
+  "name": "fondazione-edu-life",
+  "version": "0.0.1",
+  "description": "Fondazione theme for Saltcorn",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@saltcorn/data": "^0.1.0",
+    "@saltcorn/markup": "^0.1.0"
+  },
+  "author": "Michele Manzi",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "repository": "github:saltcorn/adminLTE",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "rules": {
+      "no-unused-vars": "off",
+      "no-case-declarations": "off",
+      "no-empty": "warn",
+      "no-fallthrough": "warn"
+    }
+  }
+}
