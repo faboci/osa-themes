@@ -9,4 +9,5 @@ Bisogna inserire nella sezione moduli > Aggiungi nuovo modulo il nome del pacche
 Nome pacchetti NPM:
 
 OSA: osaits-last
+<br>
 Fondazione: fondazione-edu-life
